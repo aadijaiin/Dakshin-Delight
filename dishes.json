@@ -1,0 +1,155 @@
+[
+    {
+        "name": "Masala Dosa",
+        "image": "https://imgs.search.brave.com/wXtI2Ayq75R7v36o5e881IvmfqvCRRe5NkOkwqb2s5Y/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTQ2/ODcwNDcwMi9waG90/by9tYXNhbGEtZG9z/YS5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9bXVJX2YzeUtn/cEZDMDVMM1Q3bmU5/X1ZKWmUwSVpfWTF3/VUszYlRaV0JQZz0",
+        "description": "A crispy rice and lentil crepe filled with a spiced potato mixture. Served with coconut chutney and sambar.",
+        "price": "₹120",
+        "calories": "250 kcal",
+        "ingredients": ["Rice", "Lentils", "Potatoes", "Spices"],
+        "category": "Breakfast"
+    },
+    {
+        "name": "Idli Sambar",
+        "image": "https://imgs.search.brave.com/F5k_8GBCdi53IlvxYUri0cfGkcj-VdQQXXU6CodMa0E/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTg2/OTY5MTgzL3Bob3Rv/L3NhbWJhci13aXRo/LWlkbGkuanBnP3M9/NjEyeDYxMiZ3PTAm/az0yMCZjPUFFaGgz/b3RHSjNFN3RvZHRQ/MzR5UWtRMHJVT2Nt/V0lzd1NwZTNZTDgy/WTg9",
+        "description": "Soft steamed rice cakes accompanied by a flavorful lentil and vegetable stew.",
+        "price": "₹100",
+        "calories": "150 kcal",
+        "ingredients": ["Rice", "Lentils", "Vegetables", "Tamarind"],
+        "category": "Breakfast"
+    },
+    {
+        "name": "Vada",
+        "image": "https://imgs.search.brave.com/v1U4HolLxW1jzsdU5spYtpR6aGnEySdCowQr2pDBHIA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi8wLzBjL01l/ZHVfVmFkYXMuSlBH/LzUxMnB4LU1lZHVf/VmFkYXMuSlBH",
+        "description": "Golden-fried lentil fritters, crispy on the outside and soft inside. Perfect with chutney and sambar.",
+        "price": "₹80",
+        "calories": "200 kcal",
+        "ingredients": ["Lentils", "Spices", "Oil"],
+        "category": "Snack"
+    },
+    {
+        "name": "Hyderabadi Biryani",
+        "image": "https://imgs.search.brave.com/HljuGUqYXPbBPCCtcxcYoZkBNOEKGtJZ3YL9Z6cK8ng/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA5LzAwLzQ2Lzk0/LzM2MF9GXzkwMDQ2/OTQ0N190VHFKVjBa/c2lTZFAwdkZOZnVH/eHZZd0w1T3hGQm45/Mi5qcGc",
+        "description": "Fragrant basmati rice layered with marinated meat or vegetables and spices. A culinary masterpiece.",
+        "price": "₹250",
+        "calories": "450 kcal",
+        "ingredients": ["Rice", "Meat/Vegetables", "Spices", "Yogurt"],
+        "category": "Main Course"
+    },
+    {
+        "name": "Filter Coffee",
+        "image": "https://imgs.search.brave.com/BwVP18HHcf4KiNEh920Et0cwR8cjqg35lkxIe0YUvqQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL1Mv/YXBsdXMtbWVkaWEt/bGlicmFyeS1zZXJ2/aWNlLW1lZGlhLzY5/ODM3OGVkLTM3ODIt/NGNlYS1iYWUwLWZi/YmU0OWUwYjI0OC5f/X0NSMCwyNywxNDY1/LDYyNV9QVDBfU1gx/NDY0X1YxX19fLmpw/Zw",
+        "description": "Strong, aromatic South Indian coffee brewed to perfection and served in a traditional steel tumbler set.",
+        "price": "₹50",
+        "calories": "100 kcal",
+        "ingredients": ["Coffee", "Milk", "Sugar"],
+        "category": "Beverage"
+    },
+    {
+        "name": "Rasam Rice",
+        "image": "https://imgs.search.brave.com/xiD42b_EcxmKpWHw9m4KfEKkuVBEJ2OSTrunS_-FqLo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/dmlkaHlhc2hvbWVj/b29raW5nLmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvMjAyMC8w/NC9PbmVQb3RSYXNh/bVJpY2UuanBn",
+        "description": "A tangy, spiced tomato-based soup served with steamed rice.",
+        "price": "₹120",
+        "calories": "230 kcal",
+        "ingredients": ["Rice", "Tomatoes", "Tamarind", "Spices"],
+        "category": "Main Course"
+    },
+    {
+        "name": "Pongal",
+        "image": "https://imgs.search.brave.com/mGyNARbgTbM1RHzukx_cSKMBckdXtbgFClRSOdwqi9Q/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNjIz/NjM3NzU4L3Bob3Rv/L3doaXRlLXBvbmdh/bC5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9emtJbHlONUlY/MVhyYnBRcXA5RE1o/dTRfekk2OFlXV0h0/OWhhVkZpS0FDUT0",
+        "description": "A comforting dish made with rice, lentils, ghee, and spices. Often garnished with cashews.",
+        "price": "₹110",
+        "calories": "200 kcal",
+        "ingredients": ["Rice", "Lentils", "Ghee", "Cashews"],
+        "category": "Breakfast"
+    },
+    {
+        "name": "Chettinad Chicken Curry",
+        "image": "https://imgs.search.brave.com/f9GyFdVN0ADnrUcqH394km_NjT_1L0hfaPB7QfqCHYM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9nbGVi/ZWtpdGNoZW4uY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDIy/LzA2L2NoZXR0aW5h/ZGNoaWNrZW5jdXJy/eWthZGFpY3JvcHRv/cC5qcGc",
+        "description": "A spicy, flavorful chicken curry from Tamil Nadu, seasoned with aromatic spices.",
+        "price": "₹300",
+        "calories": "500 kcal",
+        "ingredients": ["Chicken", "Coconut", "Spices"],
+        "category": "Main Course"
+    },
+    {
+        "name": "Appam and Stew",
+        "image": "https://imgs.search.brave.com/wwKNRpzu2iwA22UkHW1VbgjcMGd1RewmYzlX0I0i8yU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9iMjk1/ODEyNS5zbXVzaGNk/bi5jb20vMjk1ODEy/NS93cC1jb250ZW50/L3VwbG9hZHMvc291/dGgtaW5kaWFuLUtl/cmFsYS1zdHlsZS12/ZWdldGFibGUtc3Rl/dy1mb3ItYXBwYW0t/cmVjaXBlLmpwZz9s/b3NzeT0xJnN0cmlw/PTEmd2VicD0x",
+        "description": "Soft, fluffy rice pancakes served with a mild coconut-based vegetable or chicken stew.",
+        "price": "₹180",
+        "calories": "320 kcal",
+        "ingredients": ["Rice", "Coconut", "Vegetables/Chicken"],
+        "category": "Main Course"
+    },
+    {
+        "name": "Uttapam",
+        "image": "https://imgs.search.brave.com/P_4_W_D21fAguICQF3UNRkH0ixgvcR8KSKZh-WYcFc8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9taW5p/c3RyeW9mY3Vycnku/Y29tL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDIwLzEwL3V0dGFw/YW1fLTEtODUweDEy/NzUuanBn",
+        "description": "Thick rice and lentil pancakes topped with onions, tomatoes, and chilies.",
+        "price": "₹130",
+        "calories": "200 kcal",
+        "ingredients": ["Rice", "Lentils", "Vegetables"],
+        "category": "Breakfast"
+    },
+    {
+        "name": "Coconut Chutney",
+        "image": "https://imgs.search.brave.com/fUqsp8XD3GMvyiv_uvs8vrGgQTufuBpks3JEEUqLQdA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Y29va3dpdGhtYW5h/bGkuY29tL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDE5LzAyL1Nv/dXRoLUluZGlhbi1D/b2NvbnV0LUNodXRu/ZXkuanBn",
+        "description": "A refreshing side made with grated coconut, green chilies, and tempered spices.",
+        "price": "₹50",
+        "calories": "80 kcal",
+        "ingredients": ["Coconut", "Chilies", "Tempered Spices"],
+        "category": "Side Dish"
+    },
+    {
+        "name": "Sambar",
+        "image": "https://imgs.search.brave.com/_jIYeuU8C4D6FiLuNDCXJ-0g3uyHvDrInpLPeZme3DY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA0LzE5Lzc3LzE0/LzM2MF9GXzQxOTc3/MTQ0NV9MU1FpdGRZ/aDJDT3ZoRG1CWk5V/NkdhUVlQamQzNWc3/SC5qcGc",
+        "description": "A hearty lentil-based vegetable stew spiced with tamarind and a special blend of spices.",
+        "price": "₹90",
+        "calories": "120 kcal",
+        "ingredients": ["Lentils", "Vegetables", "Spices", "Tamarind"],
+        "category": "Side Dish"
+    },
+    {
+        "name": "Payasam",
+        "image": "https://imgs.search.brave.com/BHc5hqkoTE1XxNj2qYcMn2oCNrcyESiLKYSzHTJM5io/rs:fit:860:0:0:0/g:ce/aHR0cDovL3d3dy5r/YW5uYW1tYWNvb2tz/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAxNS8xMi9wYWwt/cGF5YXNhbS1yZWNp/cGUuanBn",
+        "description": "A sweet rice or vermicelli pudding made with milk, sugar, and cardamom, garnished with nuts.",
+        "price": "₹100",
+        "calories": "300 kcal",
+        "ingredients": ["Rice/Vermicelli", "Milk", "Sugar", "Cardamom", "Nuts"],
+        "category": "Dessert"
+    },
+    {
+        "name": "Mysore Pak",
+        "image": "https://imgs.search.brave.com/q1yib6BzdfRRK3x1C_qBo6FNSnkOi8LPXVugOm2b7ns/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/aW5kaWFuaGVhbHRo/eXJlY2lwZXMuY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDIx/LzEwL215c29yZS1w/YWsud2VicA",
+        "description": "A rich, buttery dessert made from gram flour, sugar, and ghee.",
+        "price": "₹80",
+        "calories": "450 kcal",
+        "ingredients": ["Gram Flour", "Sugar", "Ghee"],
+        "category": "Dessert"
+    },
+    {
+        "name": "Pesarattu",
+        "image": "https://imgs.search.brave.com/73dvnrkV4SY5qnkgF3bDEFoRU-DBeIGOVMqT7DGJG-8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/c2hhcm1pc3Bhc3Np/b25zLmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvMjAxMS8wNC9Q/ZXNhcmF0dHUzLmpw/Zw",
+        "description": "A green gram-based pancake often served with chutney.",
+        "price": "₹110",
+        "calories": "180 kcal",
+        "ingredients": ["Green Gram", "Spices", "Oil"],
+        "category": "Breakfast"
+    },
+    {
+        "name": "Coconut Water",
+        "image": "https://imgs.search.brave.com/_tpAeywKWmStrRE4vRTf9QVI4OMc8YtANgUuuL8Mzgs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vcG9zdC5o/ZWFsdGhsaW5lLmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAy/MS8wOC9jb2NvbnV0/LXdhdGVyLTEyOTZ4/NzI4LWhlYWRlci5q/cGc_dz0xMTU1Jmg9/MTUyOA",
+        "description": "A refreshing, natural drink served fresh from tender coconuts.",
+        "price": "₹40",
+        "calories": "50 kcal",
+        "ingredients": ["Tender Coconut"],
+        "category": "Beverage"
+    },
+    {
+        "name": "Madurai Jigarthanda",
+        "image": "https://imgs.search.brave.com/aR4CBwMsGXRdeE6I63bONlQvBMa_w6ZuxzrqvB_CJZM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vY29va2lu/Z2Zyb21oZWFydC5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MTkvMDQvSmlnYXJ0/aGFuZGEtNi5qcGc_/cmVzaXplPTY4Mywx/MDI0JnNzbD0x",
+        "description": "A chilled beverage made with milk, almond gum, and ice cream, originating from Madurai.",
+        "price": "₹120",
+        "calories": "350 kcal",
+        "ingredients": ["Milk", "Almond Gum", "Ice Cream"],
+        "category": "Beverage"
+    }
+]

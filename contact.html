@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Dakshin Delight</title>
+    <link rel="stylesheet" href="contact.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+  
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="reservation.html">Reserve a Table</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <!-- <li><a href="login.html">login</a></li> -->
+          <li><a href="signup.html">signup</a></li>
+        </ul>
+      </nav>
+    <header>
+        <h1>Contact Us</h1>
+        <p>We would love to hear from you!</p>
+    </header>
+
+    <div class="contact-container">
+        <h2>Get in Touch</h2>
+        <form id="contactForm">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+        <div class="contact-details">
+            <p><strong>Phone:</strong> +91 98765 43210</p>
+            <p><strong>Email:</strong> <a href="mailto:contact@dakshindelight.com">contact@dakshindelight.com</a></p>
+            <p><strong>Address:</strong> 123 South Street, Delhi, India</p>
+        </div>
+    </div>
+
+    <script>
+        const contactForm = document.getElementById('contactForm');
+
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+
+            alert(`Thank you, ${name}! Your message has been sent successfully. We will reach out to you at ${email}.`);
+
+            // Optionally clear the form fields
+            contactForm.reset();
+        });
+    </script>
+</body>
+</html>

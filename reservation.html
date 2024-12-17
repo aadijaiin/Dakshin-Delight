@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seat Reservation - Dakshin Delight</title>
+    <link rel="stylesheet" href="reservation.css">
+    <style>
+     
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="reservation.html">Reserve a Table</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <!-- <li><a href="login.html">login</a></li> -->
+        <li><a href="signup.html">signup</a></li>
+      </ul>
+    </nav>
+    <header>
+      <h1>Reserve Your Tables</h1>
+      <p>Select your preferred Tables below</p>
+    </header>
+
+    <div class="container">
+      <div class="seat-grid" id="seatGrid">
+        <!-- Seats will be dynamically populated here -->
+      </div>
+
+      <div class="summary">
+        Selected Tables: <span id="selectedSeats">0</span><br />
+        Total Price: <span id="totalPrice">0</span> INR
+      </div>
+
+      <button id="reserveButton">Confirm Reservation</button>
+    </div>
+
+    <script>
+      const seatGrid = document.getElementById("seatGrid");
+const selectedSeatsCount = document.getElementById("selectedSeats");
+const totalPriceDisplay = document.getElementById("totalPrice");
+const reserveButton = document.getElementById("reserveButton");
+
+const seatPrice = 250; // Price per seat
+const rows = 6; // Number of rows
+const cols = 6; // Number of columns
+let selectedSeats = [];
+
+for (let i = 0; i < rows * cols; i++) {
+    const seat = document.createElement("div");
+    seat.classList.add("seat");
+    seat.textContent = i + 1;
+
+    if (Math.random() < 0.2) {
+        seat.classList.add("reserved");
+    }
+
+    seat.addEventListener("click", () => {
+        if (!seat.classList.contains("reserved")) {
+            seat.classList.toggle("selected");
+
+            const seatIndex = selectedSeats.indexOf(i + 1);
+            if (seatIndex > -1) {
+                selectedSeats.splice(seatIndex, 1);
+            } else {
+                selectedSeats.push(i + 1);
+            }
+
+            updateSummary();
+        }
+    });
+
+    seatGrid.appendChild(seat);
+}
+
+// Update seat selection summary
+function updateSummary() {
+    selectedSeatsCount.textContent = selectedSeats.length;
+    totalPriceDisplay.textContent = selectedSeats.length * seatPrice;
+}
+
+// Confirm reservation action
+reserveButton.addEventListener("click", () => {
+    if (selectedSeats.length > 0) {
+        alert(
+            `You have reserved tables: ${selectedSeats.join(
+                ", "
+            )}\nTotal Price: ${selectedSeats.length * seatPrice} INR`
+        );
+        
+        // Mark the selected seats as reserved (turn red)
+        document.querySelectorAll(".seat.selected").forEach(seat => {
+            seat.classList.remove("selected");
+            seat.classList.add("reserved");
+        });
+
+        selectedSeats = [];
+        updateSummary();
+    } else {
+        alert("Please select at least one table to reserve.");
+    }
+});
+
+    </script>
+  </body>
+</html>
